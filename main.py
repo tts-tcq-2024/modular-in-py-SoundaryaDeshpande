@@ -1,5 +1,5 @@
 from UserInteraction import test_number_to_pair,test_pair_to_number
-from OutputDispaly import display_output
+from OutputDisplay import display_output
 
 if __name__ == '__main__':
   test_number_to_pair(4, 'White', 'Brown')
