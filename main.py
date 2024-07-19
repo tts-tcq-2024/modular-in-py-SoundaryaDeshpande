@@ -1,5 +1,6 @@
 from UserInteraction import test_number_to_pair,test_pair_to_number
 from OutputDisplay import display_output
+from ColorConverter import build_color_guide
 
 if __name__ == '__main__':
   test_number_to_pair(4, 'White', 'Brown')
@@ -8,3 +9,5 @@ if __name__ == '__main__':
   test_pair_to_number('Violet', 'Slate', 25)
   test_pair_to_number('Red', 'Orange', 7)
   display_output('Done :)')
+  manual=build_color_guide()
+  display_output(manual)
