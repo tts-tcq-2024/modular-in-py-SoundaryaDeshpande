@@ -1,5 +1,5 @@
-def color_pair_to_string(major_color, minor_color):
-  return f'{major_color} {minor_color}'
+from UserInteraction import test_number_to_pair,test_pair_to_number
+from OutputDispaly import display_output
 
 if __name__ == '__main__':
   test_number_to_pair(4, 'White', 'Brown')
@@ -7,4 +7,4 @@ if __name__ == '__main__':
   test_pair_to_number('Black', 'Orange', 12)
   test_pair_to_number('Violet', 'Slate', 25)
   test_pair_to_number('Red', 'Orange', 7)
-  print('Done :)')
+  display_output('Done :)')
