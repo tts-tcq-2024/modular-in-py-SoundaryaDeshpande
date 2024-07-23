@@ -1,4 +1,4 @@
-from UtilTestcases import test_number_to_pair,test_pair_to_number
+from UtilTestcases import test_number_to_pair,test_pair_to_number #renamed 
 from ConsoleOutputDisplay import display_output
 from ColorGuide import build_color_guide
 
