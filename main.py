@@ -1,6 +1,6 @@
 from UserInteraction import test_number_to_pair,test_pair_to_number
 from OutputDisplay import display_output
-from ColorConverter import build_color_guide
+from ColorGuide import build_color_guide
 
 if __name__ == '__main__':
   test_number_to_pair(4, 'White', 'Brown')
