@@ -1,3 +1,4 @@
+from ColorUtils import get_color_from_pair_number, MAJOR_COLORS, MINOR_COLORS
 def build_color_guide():
     manual = "Color Coding Reference:\n"
     for pair_number in range(1, len(MAJOR_COLORS) * len(MINOR_COLORS) + 1):
